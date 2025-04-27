@@ -318,6 +318,7 @@ h1.heading{
 }
 .footer .main-footer{
     display: flex;
+    justify-content: space-between;
     gap: 15px;
 }
 .footer .desc-1{
