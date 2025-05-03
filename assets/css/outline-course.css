@@ -15,29 +15,6 @@ body {
     /* heading = 0 */
     counter-reset:heading;
 }
-  
-a {
-    text-decoration: none;
-    color: inherit;
-    display: block;
-    padding: 15px;
-}
-  
-button {
-    padding: 0;
-    border: none;
-    background: transparent;
-    cursor: pointer;
-}
-  
-input,
-button,
-textarea,
-select {
-    font-family: inherit;
-    font-size: inherit;
-    color: inherit;
-}
 /* wrapper */
 .wrapper{
     width: 400px;
@@ -70,7 +47,7 @@ select {
     animation: animateGradient 3s linear infinite;
 }
   
-  /* Keyframes for right-to-left movement */
+/* Keyframes for right-to-left movement */
 @keyframes animateGradient {
     0% {
       background-position: 200% center;
@@ -142,12 +119,6 @@ ol li {
 }
 ol li::before {
     content: counter(heading) "." counter(sub-heading) " ";
-}
-
-ol li:first-child::before{
-    content: "";
-    display: block;
-    border-top: 1px solid #000;
 }
 ol  li::after{
     content: "";
